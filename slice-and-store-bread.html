@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Tips for slicing to eat and freeze!</title>
+        <title>Slicing bread to eat or freeze!</title>
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
@@ -14,136 +14,259 @@
         <div class="container">
             <section class="hero is-info is-small">
                 <div class="hero-body has-text-centered">
-                    <h1 class="title">Slicing and Storing Bread</h1>
+                    <h1 class="title">Slicing Bread</h1>
                     <p class="subtitle">
-                        Quick tips on slicing and preparing bread to freeze 😊
+                        Quick tips on slicing bread to eat or freeze
                     </p>
                 </div>
             </section>
-
             <section class="section">
-                <h1 class="title is-size-3 has-text-centered">Cut #1</h1>
-                <div class="columns">
-                    <div class="column">
-                        <div class="columns">
-                            <div class="column">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure class="image is-4by3">
-                                            <img
-                                                src="slice-and-store-bread/first-cuts3.jpg"
-                                                alt="Placeholder image"
-                                            />
-                                        </figure>
-                                    </div>
+                <h2 class="subtitle is-size-4 has-text-centered is-centered">
+                    I want to slice bread and ...
+                </h2>
+                <div class="tabs is-toggle is-centered is-large">
+                    <ul>
+                        <li
+                            class="is-active has-background-white"
+                            data-value="eat"
+                            onclick="App.userClickedTab(this)"
+                        >
+                            <a>Eat it</a>
+                        </li>
+                        <li
+                            class="has-background-white"
+                            data-value="freeze"
+                            onclick="App.userClickedTab(this)"
+                        >
+                            <a>Freeze it</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <article class="instructions mx-6" data-value="eat">
+                <article class="bloc">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <h2
+                                        class="title is-size-4 has-text-weight-light has-text-centered"
+                                    >
+                                        Cut #1
+                                    </h2>
                                 </div>
-                            </div>
-                            <div class="column">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure class="image is-4by3">
-                                            <img
-                                                src="slice-and-store-bread/first-cuts4.jpg"
-                                                alt="Placeholder image"
-                                            />
-                                        </figure>
-                                    </div>
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img
+                                            src="slice-and-store-bread/first-cuts3.jpg"
+                                            alt="Stand on end and cut down the middle"
+                                        />
+                                    </figure>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </article>
 
-            <section class="section">
-                <h1 class="title is-size-3 has-text-centered">Freezing</h1>
-                <div class="columns">
-                    <div class="column">
-                        <div class="columns">
-                            <div class="column">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure class="image is-4by3">
-                                            <img
-                                                src="slice-and-store-bread/quarters-for-freezing1.jpg"
-                                                alt="Placeholder image"
-                                            />
-                                        </figure>
-                                    </div>
+                <article class="block">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <h2
+                                        class="title is-size-4 has-text-weight-light has-text-centered"
+                                    >
+                                        Start slicing from the edge
+                                    </h2>
                                 </div>
-                            </div>
-                            <div class="column">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure class="image is-4by3">
-                                            <img
-                                                src="slice-and-store-bread/quarters-for-freezing2.jpg"
-                                                alt="Placeholder image"
-                                            />
-                                        </figure>
-                                    </div>
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img
+                                            src="slice-and-store-bread/slicing1.jpg"
+                                            alt="Slice from the edge"
+                                        />
+                                    </figure>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </article>
 
-            <section class="section">
-                <h1 class="title is-size-3 has-text-centered">Slicing</h1>
-                <div class="columns">
-                    <div class="column">
-                        <div class="columns">
-                            <div class="column">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure class="image is-4by3">
-                                            <img
-                                                src="slice-and-store-bread/slicing1.jpg"
-                                                alt="Placeholder image"
-                                            />
-                                        </figure>
-                                    </div>
+                <article class="block">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <h2
+                                        class="title is-size-4 has-text-weight-light has-text-centered"
+                                    >
+                                        Slice more! Enjoy with butter, jam, or
+                                        make a sandwich! 🥪 😋
+                                    </h2>
                                 </div>
-                            </div>
-                            <div class="column">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure class="image is-4by3">
-                                            <img
-                                                src="slice-and-store-bread/slicing2.jpg"
-                                                alt="Placeholder image"
-                                            />
-                                        </figure>
-                                    </div>
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img
+                                            src="slice-and-store-bread/slicing2.jpg"
+                                            alt="Continue slicing"
+                                        />
+                                    </figure>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </article>
+            </article>
 
-            <section class="section">
-                <h1 class="title is-size-3 has-text-centered">Re-Heating</h1>
-                <div class="columns">
-                    <div class="column">
-                        <div class="columns is-centered">
-                            <div class="column is-half">
-                                <article class="message">
-                                    <div class="message-body">
-                                        <p>
-                                            Remove bread from freezer and
-                                            re-heat while wrapped in foil at
-                                            325°F for 25 minutes.
-                                            <strong>Unwrap and enjoy!</strong>
-                                        </p>
-                                    </div>
-                                </article>
+            <article class="instructions is-hidden mx-6" data-value="freeze">
+                <article class="block">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <h2
+                                        class="title is-size-4 has-text-weight-light has-text-centered"
+                                    >
+                                        Cut in halves
+                                    </h2>
+                                </div>
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img
+                                            src="slice-and-store-bread/first-cuts3.jpg"
+                                            alt="Stand on end and cut down the middle"
+                                        />
+                                    </figure>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </article>
+
+                <article class="block">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <h2
+                                        class="title is-size-4 has-text-weight-light has-text-centered"
+                                    >
+                                        Cut in quarters
+                                    </h2>
+                                </div>
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img
+                                            src="slice-and-store-bread/quarters-for-freezing1.jpg"
+                                            alt="Cut each half down the middle"
+                                        />
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="block">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <h2
+                                        class="title is-size-4 has-text-weight-light has-text-centered"
+                                    >
+                                        Wrap in foil
+                                    </h2>
+                                </div>
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img
+                                            src="slice-and-store-bread/quarters-for-freezing2.jpg"
+                                            alt="Wrap in foil"
+                                        />
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="block">
+                    <div class="columns is-centered">
+                        <div class="column is-three-quarters">
+                            <div class="card">
+                                <div class="card-content">
+                                    <h2
+                                        class="title is-size-4 has-text-weight-light has-text-centered"
+                                    >
+                                        Re-Heating
+                                    </h2>
+
+                                    <p class="has-text-centered block">
+                                        Fresh bread in <em>25 minutes</em>!
+                                    </p>
+
+                                    <p>
+                                        Take frozen bread from freezer, but
+                                        don't remove the foil. Place in oven at
+                                        325°F. Set a timer for 25 minutes.
+                                        <strong>Unwrap and enjoy!</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </article>
         </div>
     </body>
+    <script>
+        const App = {
+            config: {
+                tabSelector: ".tabs li",
+                activeTabSelector: (value) => `.tabs li[data-value='${value}']`,
+            },
+            data: { activeTab: "eat" },
+
+            displayInstructions: function (targetValue) {
+                document
+                    .querySelectorAll(".instructions")
+                    .forEach((instruction) => {
+                        if (instruction.dataset.value == targetValue) {
+                            instruction.classList.remove("is-hidden");
+                        } else {
+                            instruction.classList.add("is-hidden");
+                        }
+                        console.log({
+                            instruction: instruction.id,
+                            targetValue,
+                        });
+                    });
+            },
+
+            selectTab: function (tabValue) {
+                App.data.activeTab = tabValue;
+
+                document
+                    .querySelectorAll(App.config.tabSelector)
+                    .forEach((tab) => {
+                        tab.classList.remove("is-active");
+                    });
+
+                activeTabSelector = App.config.activeTabSelector(tabValue);
+
+                document
+                    .querySelector(activeTabSelector)
+                    .classList.add("is-active");
+
+                App.displayInstructions(tabValue);
+            },
+
+            userClickedTab: function (tab) {
+                console.log(tab);
+                App.selectTab(tab.dataset.value);
+            },
+        };
+    </script>
 </html>
