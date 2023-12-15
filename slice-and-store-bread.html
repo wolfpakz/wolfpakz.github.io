@@ -238,10 +238,6 @@
                         } else {
                             instruction.classList.add("is-hidden");
                         }
-                        console.log({
-                            instruction: instruction.id,
-                            targetValue,
-                        });
                     });
             },
 
@@ -264,7 +260,6 @@
             },
 
             userClickedTab: function (tab) {
-                console.log(tab);
                 App.selectTab(tab.dataset.value);
             },
         };
